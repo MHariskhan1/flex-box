@@ -181,7 +181,7 @@
 } */
 
 /* align base */
-.flex-container {
+/* .flex-container {
     display: flex;
     align-items: center;
     background-color: blue;
@@ -197,6 +197,35 @@
     margin: 10px;
     line-height: 75px;
     color: black;
+} */
+
+/* responsive flex box */
+* {
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+.flex-item-left {
+    background-color: white;
+    padding: 10px;
+    flex: 50%;
+}
+.flex-item-right {
+    background-color: blue;
+    padding: 10px;
+    flex: 50%;
+}
+@media (max-width: 800px) {
+    .flex-container
+    {
+        flex-direction: column;
+
+    }
+    
 }
 
 
