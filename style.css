@@ -1,4 +1,5 @@
-.flex-container {
+/* Flex box basics */
+/* .flex-container {
     display: flex;
     background-color: blue;
 }
@@ -7,7 +8,123 @@
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+} */
+
+/* Flex box container */
+/* Flex container direction */
+/* .flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: blue;
 }
-#div1 {
+.flex-container>div {
+    background-color: white;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    padding: 20px;
+    font-size: 30px;
+} */
+/* Flex -wrap */
+/* .flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    flex-wrap: wrap-reverse;
+}
+.flex-container>div {
+    background-color: white;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    padding: 20px;
+    font-size: 30px;
+} */
+
+/* Flex flow */
+/* .flex-container {
+    display: flex;
+    background-color: blue;
+    flex-flow: row wrap;
+}
+.flex-container>div {
+    background-color: white;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    padding: 20px;
+    font-size: 30px;
+} */
+/* Justifi contant */
+
+/* .flex-container {
+    display: flex;
+    background-color: blue;
+    justify-content:center;
     flex-wrap: wrap;
 }
+.flex-container>div {
+    background-color: white;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    padding: 20px;
+    font-size: 30px;
+} */
+
+/* align-items */
+
+/* .flex-container {
+    display: flex;
+    height: 200px;
+    background-color: blue;
+    align-items: center;
+}
+.flex-container>div {
+    background-color: white;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    padding: 20px;
+    font-size: 30px;
+} */
+/* align contact */
+
+/* .flex-container {
+    display: flex;
+    height: 700px;
+    flex-wrap: wrap;
+    background-color: blue;
+    overflow: scroll;
+    align-content: center;
+}
+.flex-container>div {
+    background-color: white;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    padding: 20px;
+    font-size: 30px;
+} */
+/* perfect centering the items */
+.flex-container {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    background-color: blue;
+    justify-content: center;
+}
+.flex-container>div {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    color: white;
+    
+}
+
